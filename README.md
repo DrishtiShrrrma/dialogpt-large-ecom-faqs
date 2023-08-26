@@ -2,3 +2,6 @@
 
 
 Alternative Heading: Understanding the Trade-offs of Sequence Length in Fine-Tuning Pre-trained Language Models
+
+
+GPU: A100
