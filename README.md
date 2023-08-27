@@ -1,3 +1,5 @@
+# Tentative
+
 # From Overfitting to Information Loss: The Dilemma of Block Size in Causal Language Models
 
 
@@ -31,3 +33,9 @@ The token length distribution seems to vary significantly, with minimum lengths 
 Variable Length: If your framework allows for it, you might consider using variable-length sequences. This way, you're not limited by a fixed block size.
 
 Remember, it's not just about capturing all the data in one block; it's about capturing enough context to make meaningful predictions while also making the problem tractable for your hardware and not introducing too much noise via padding.
+
+The choice of block size largely depends on the nature of your data and the problem you're trying to solve. However, a block size of 8 would generally be considered very small for most natural language processing tasks and is unlikely to provide sufficient context for the model to make meaningful predictions, especially given the token lengths you've listed.
+
+Here are some general guidelines:
+
+NLP Tasks: For text classification, sentiment analysis, and similar tasks, the block size generally needs to be large enough to capture at least one or a few sentences to provide meaningful context.
