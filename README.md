@@ -13,5 +13,5 @@ GPU: A100
 
 After figuring out that 1e-5 helped in yielding the best results, we'll experiment with different values of block_sizes
 
-block_size = 256 ---> 11.65
-block_size = 512 --> CUDA OOM
+- block_size = 256 ---> 11.65
+- block_size = 512 --> CUDA OOM
