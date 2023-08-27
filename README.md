@@ -19,6 +19,7 @@ After figuring out that 1e-5 helped in yielding the best results, we'll experime
 - 64 ---->14.9
 - block_size = 256 ---> 11.65
 - block_size = 400 ---> 14.57
+- 420 ---> OOM
 - block_size = 450 ---> OOM
 - block_size = 512 --> CUDA OOM
 
