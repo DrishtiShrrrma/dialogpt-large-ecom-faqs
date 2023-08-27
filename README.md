@@ -29,3 +29,5 @@ The token length distribution seems to vary significantly, with minimum lengths 
 - Too Large: A block size that's too large may make the model harder to train because it may exceed hardware limitations (e.g., GPU memory), or it may overfit to the specific examples due to the long sequence.
 
 Variable Length: If your framework allows for it, you might consider using variable-length sequences. This way, you're not limited by a fixed block size.
+
+Remember, it's not just about capturing all the data in one block; it's about capturing enough context to make meaningful predictions while also making the problem tractable for your hardware and not introducing too much noise via padding.
