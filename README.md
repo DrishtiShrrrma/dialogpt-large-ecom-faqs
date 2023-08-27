@@ -14,12 +14,12 @@ GPU: A100
 - Perplexity(1e-5) ~ 11.18
 
 After figuring out that 1e-5 helped in yielding the best results, we'll experiment with different values of block_sizes
-
--32 ---> 24.14
+- 
+- 32 ---> 24.14
 - 64 ---->14.9
 - block_size = 256 ---> 11.65
 - block_size = 400 ---> 14.57
-- 
+- block_size = 450 ---> OOM
 - block_size = 512 --> CUDA OOM
 
 
