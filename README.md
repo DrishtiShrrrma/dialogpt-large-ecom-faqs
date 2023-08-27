@@ -14,7 +14,7 @@ GPU: A100
 - Perplexity(1e-5) ~ 11.18
 
 After figuring out that 1e-5 helped in yielding the best results, we'll experiment with different values of block_sizes
-- 
+- 16 ---> 44.23
 - 32 ---> 24.14
 - 64 ---->14.9
 - block_size = 256 ---> 11.65
